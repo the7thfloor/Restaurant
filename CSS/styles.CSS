@@ -122,3 +122,16 @@ padding: 5px 0;
 .middle{
     margin: 0 15px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+/* works horizontally because the flexbox is set to vertical     */
+    align-items: center;
+    background: #e5e0e0;
+}
+footer > img{
+    max-width: 25px;
+    margin:10px auto 0 auto;
+}
+
